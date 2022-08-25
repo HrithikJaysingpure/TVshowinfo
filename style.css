@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+:root{
+    --primary-color: #171717;
+    --secondary-color:#292929;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    position: ;
+    top:0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+#logo{
+    display: flex;
+    margin-left: 2rem;
+}
+#logo> #show{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#fff;
+}
+#logo>#info{
+    color:#d4aa11;;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#logo:hover{
+    cursor: pointer;
+}
+
+.search-box{
+   padding: 1rem;
+   position:relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.search-icon{
+    width:2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    position: absolute;
+    background-color: royalblue;
+    display: grid;
+    place-items: center;
+    right:1rem;
+    border-radius: 50%;
+    text-decoration: none;
+    
+}
+#search-txt{
+    width: 0rem;
+    border-radius: 2rem;
+    border:none;
+    outline:none;
+    transition: 0.2s linear;
+    color:white;
+    background-color: var(--primary-color);
+}
+
+.search-box:hover > #search-txt{
+    width:15rem;
+    padding: 1rem;
+}
+
+.search-btn:hover{
+    opacity:0.8;
+}
+
+main{
+     display: flex;
+    justify-content: center;
+     flex-wrap: wrap;
+}
+body{
+  
+    background-color:var(--primary-color);
+}
+
+.movie{
+    width: 12rem;
+    background-color: var(--secondary-color);
+    margin: 1rem 1rem 2rem 1rem;
+
+}
+.poster{
+    width:100%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+.movieinfo{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.movieinfo > h3{
+    color:white;
+    margin-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    font-family: 'Archivo', sans-serif;
+}
+
+.poster {
+    transition: 0.3s;
+}
+.poster:hover{
+    cursor:pointer;
+    scale: 1.2;
+}
+
+.yellow{
+    color:yellow;
+    font-size: 1.5rem;
+}
+
+.red{
+    color:red;
+    font-size: 1.5rem;
+}
+
+.green{
+    color:green;
+    font-size: 1.5rem;
+}
+.white{
+    color:white;
+    font-size : 1rem;
+}
+
+
+
+
+
+.footer{
+    position: fixed;
+    width: 100%;
+    
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+.footer ul{
+    display: flex;
+}
+
+.ele{
+    list-style-type: none;
+    margin: 4rem;
+}
+
+.ele > a{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:450px){
+
+    header{
+        height: 24vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   .footer{
+        height: 10vh;
+   }
+    .footer{
+        height: 30%;
+    }
+    .footer > ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer > ul > li{
+        margin: 10px;
+    }
+    #logo{
+        padding-top: 10px;
+        margin-bottom: 5px;
+    }
+    .search-icon{
+        margin-bottom: 10px;
+    }
+    #main{
+       display: flex; 
+       flex-wrap:wrap;
+    }
+    .movie{
+        width: 120px;
+    }
+    .movieinfo{
+        margin-bottom: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .poster{
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .title{
+        padding: 0;
+        text-align: center;
+    }
+}
+    
+.yellow{
+    color:yellow;
+    font-size: 0.8rem;
+}
+
+.red{
+    color:red;
+    font-size: 0.8rem;
+}
+
+.green{
+    color:green;
+    font-size: 0.8rem;
+}
+.white{
+    color:white;
+    font-size : 0.8rem;
+}
