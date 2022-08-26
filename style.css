@@ -142,25 +142,6 @@ body{
     font-size : 1rem;
 }
 
-
-
-
-
-.footer{
-    position: fixed;
-    width: 100%;
-    
-    bottom:0;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--secondary-color);
-}
-
-.footer ul{
-    display: flex;
-}
-
 .ele{
     list-style-type: none;
     margin: 4rem;
