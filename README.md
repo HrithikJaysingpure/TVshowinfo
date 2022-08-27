@@ -11,7 +11,7 @@ https://tvshowinfo.netlify.app/
 
 ## Screenshots
 
-![Homepage](https://github.com/HrithikJaysingpure/Banking-System/blob/feffcf58b56c97bd88a080ffec7a9b7cecd5592e/ss/home%20page.JPG)
+![Homepage](![Uploading home page.JPG…]())
 
 ![search](https://github.com/HrithikJaysingpure/Banking-System/blob/feffcf58b56c97bd88a080ffec7a9b7cecd5592e/ss/search.png)
 ![search result](https://github.com/HrithikJaysingpure/Banking-System/blob/feffcf58b56c97bd88a080ffec7a9b7cecd5592e/ss/searchresult.JPG)
