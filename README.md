@@ -15,6 +15,6 @@ https://tvshowinfo.netlify.app/
 
 ![search result](https://user-images.githubusercontent.com/67874769/187043413-4b31227d-3173-4612-85c0-adb497a13c1e.JPG)
 
-![search result](https://user-images.githubusercontent.com/67874769/187043385-0e74e44a-01eb-449f-b103-3c217663449c.JPG)
+![search](https://user-images.githubusercontent.com/67874769/187043461-8f725f3b-31cf-4bac-9055-866de10158b2.JPG)
 
 
